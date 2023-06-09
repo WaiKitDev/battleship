@@ -38,3 +38,5 @@ if (process.env.NODE_ENV !== 'development') {
   });
   clientApp.listen(CLIENT_PORT, () => console.log(`Client is listening at port: ${CLIENT_PORT}`));
 }
+
+console.log('test test');
